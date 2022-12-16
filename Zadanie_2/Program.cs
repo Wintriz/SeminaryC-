@@ -3,6 +3,8 @@ Console.WriteLine("Enter a number a: ");
 Console.WriteLine("Enter a number b: ");
 int a = int.Parse(Console.ReadLine()!);
 int b = int.Parse(Console.ReadLine()!);
+int max = 0;
+int min =0;
 if(a > b)
 {
     max = a;
