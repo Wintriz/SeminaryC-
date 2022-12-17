@@ -13,6 +13,6 @@ if (FirstNumber % SecondNumber == 0)
 }
 else
 {
-Console.Write("Вывод остатка: ");
-Console.WriteLine(FirstNumber/SecondNumber);
+    Console.Write("Вывод остатка: ");
+    Console.WriteLine(FirstNumber / SecondNumber);
 }
